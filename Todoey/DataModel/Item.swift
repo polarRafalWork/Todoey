@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Item {
+class Item : Codable {
     let title : String
     private(set) var done : Bool = false
     
